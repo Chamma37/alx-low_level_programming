@@ -19,11 +19,12 @@ int main(void)
         n = rand() - RAND_MAX / 2;
         /* your code goes there */
         m = n % 10;
-        if (m > 5)
-		printf("Last digit of %d is %d and is greater than 5\n", n, m);
-        if (m == 0)
-		printf("Last digit of %d is %d and is 0\n", n, m);
-	if (m < 6 && m != 0)
-		printf("Last digit of %d is %d and less than 6 and not 0\n", n, m);
+        num = -98
+
+        if last_digit < 6 and last_digit != 0:
+    print(f"The last digit of {num} is {last_digit} and is less than 6 and not 0.")
+        else:
+    print(f"The last digit of {num} does not satisfy the conditions.")
+
 	return (0);
 }
